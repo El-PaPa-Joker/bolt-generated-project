@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('/fonts/Alexandria-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('/fonts/Alexandria-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  @apply  text-base;
+}
+
+body {
+  @apply font-sans;
+}
+
+.arabic {
+  font-family: 'Alexandria', sans-serif;
+  direction: rtl;
+}
